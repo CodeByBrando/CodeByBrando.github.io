@@ -1,0 +1,99 @@
+body {
+    background: black;
+    
+    
+}
+h1{
+    color: #010000;
+    font-family:'Chela One', cursive;
+    font-size: 100px;
+    text-align: center;
+}
+h2,p{
+    color: white;
+    font-family:'Chela One', cursive;
+    
+}
+div{
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    border: white;
+    border: 8px white solid;
+}
+p{
+    padding:20px;
+}
+li{
+    padding: 0px 10px 0px 10px;
+    color: white;
+
+}
+ul{
+    color: white; 
+
+}
+header{
+    background: url("images/newbackground.jpg");
+    background: cover;
+    text-align: center;
+}
+article{
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.sk8{
+    padding: 20px;
+    text-align: center;
+}
+.home{
+    float: right;
+    top: 100px;
+}
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #1f5ad1;
+    border-radius: 100px;
+    background: #4a92ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4a92ff), to(#1c9494));
+    background: -moz-linear-gradient(top, #4a92ff, #1c9494);
+    background: linear-gradient(to bottom, #4a92ff, #1c9494);
+    text-shadow: #591717 1px 1px 1px;
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    border: 1px solid #3290ff;
+    background: #59afff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#59afff), to(#22b2b2));
+    background: -moz-linear-gradient(top, #59afff, #22b2b2);
+    background: linear-gradient(to bottom, #59afff, #22b2b2);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #2c5899;
+    background: -webkit-gradient(linear, left top, left bottom, from(#2c5899), to(#1c9494));
+    background: -moz-linear-gradient(top, #2c5899, #1c9494);
+    background: linear-gradient(to bottom, #2c5899, #1c9494);
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABp0lEQVRIib3VMWtTcRQF8B8hQ5DiUKpIhyIlQyeH4tApU3EsziLiUJxFHMWv4CaiTvoBHEWkCAVnJ5HioOJQUWMQhxAkPId3NM/QpO9J8MAlf+475977/jmXRzOcSNRGq2GDq7jSUFMbbbzB65wXjh0UiZ1FF2/hRaXBnubXOxfnMca7xBibi2zwWDn59USR3EKwhiH6WE70k1s7TtzGOZzBCk7jVOW8grPo4C6+Rfcob/IS7/EVn/P7pXL+BBcyUXFEjPADH7BeGWwdH/NsNEPbT22wofR4EdEldPMWnTk30Amni8vRFqm1MU1exrMQDtGbU3gavWgKPE2tI9HGHaUNR9itUfxauONoa235rtIlY9yYw7sZznDWMLO28SHu5/lxG9vCvWhqN2CyqfuVXNvfV7A/xa2NJaUj+iYu2sarxHZyHQzCXWrSoGfiiC6eKO/6t8fHyXVNnNfEdW5H9Fb5BxY4wMXEQXLDcArcatJgrzLtQOmW6sJ1khtUeM/rFu/gO37iAVbncFfDGUczb+v/YEv5cWnijM1otuqQT/q3r1Ur2v+LX/HHej46KhRqAAAAAElFTkSuQmCC") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
