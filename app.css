@@ -53,7 +53,7 @@ article{
     top: 100px;
 }
 .button {
-    display: inline-block;
+    display: inline;
     text-align: center;
     vertical-align: middle;
     padding: 12px 24px;
